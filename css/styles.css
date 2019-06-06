@@ -1,0 +1,25 @@
+body{
+  padding: 30px;
+  margin: 30px;
+}
+h1{
+  text-align: center;
+  padding-bottom: 20px;
+}
+p{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 10px;
+  font-weight: bold;
+  color: #983030;
+}
+form{
+  border: grey solid;
+}
+
+button{
+  padding-bottom: 20px;
+}
+select{
+  margin: 10px;
+}
