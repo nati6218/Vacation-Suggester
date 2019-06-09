@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
 $('form#container').submit(function(event){
+
     event.preventDefault();
   var question1 = $("input:radio[name=purpose]:checked").val();
   var question2 = $("input:radio[name=activities]:checked").val();
@@ -13,9 +14,12 @@ if (question1=== "party" && question2 === "dance" && question3 === "fastfood" &&
   $('#place1').show();
 } else if (question1 === "learn" && question2 === "walk" && question3 === "vegetarian" && question4 === "classic" && question5 === "spring") {
   $('#place2').show();
-} else {
+} else if (question1 === "relax" && question2 === "swim" && question3 === "seafood" && question4 === "rock" && question5 === "fall") {
   $('#place3').show();
+}  else {
+  alert("please select all the options");
 }
+
 
 });
 
