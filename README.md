@@ -1,4 +1,4 @@
-# Epicodus Independent Project
+# Vacation Suggester
 #### By Natalia Tigh
 
 ## Descriprion
