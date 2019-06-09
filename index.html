@@ -12,9 +12,15 @@
 <h1>Find your Best Vacation Place</h1>
 
 <h5>Welcome to Vacation Suggester, please answer the following questions and we will give you the best matching vacation place you could ever go</h5>
-
+<br>
 <div>
 <form id="container">
+  <div class="form-row">
+    <div class=".col-4">
+      <label for="validationDefault01">What is your Name?</label>
+      <input id="name" type="text" class="form-control"  placeholder="First name"  required >
+    </div>
+    <br>
   <p>1. What is your main purpose for going on vacation?</p>
   <div class="radio">
   <label>
@@ -120,6 +126,7 @@
   </label>
 </div>
 </div>
+<br>
 <button type="submit" class="btn btn-primary my-1">Submit</button>
 
 </form>
@@ -127,7 +134,7 @@
 
 </form>
 <div id="place1">
-  <h3>Great Choices!!<h3>
+  <h3>Great Choices<span class="name"></span>!</h3>
   <p>The best places for your next vacation are:</p>
   <ul>
     <li>San Andres, Colombia</li>
@@ -136,7 +143,7 @@
    </ul>
 </div>
 <div  id="place2">
-    <h3>Great Choices!!<h3>
+    <h3>Great Choices: <span class="name"> !</span></h3>
   <p>The best places for your next vacation are:</p>
   <ul>
     <li>India</li>
@@ -145,7 +152,7 @@
    </ul>
 </div>
 <div id="place3">
-    <h3>Great Choices!!<h3>
+    <h3>Great Choices <span class="name">!</span></h3>
   <p>The best places for your next vacation are: </p>
   <ul>
     <li>Victoria,Canada</li>

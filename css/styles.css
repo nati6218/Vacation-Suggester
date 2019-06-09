@@ -7,7 +7,7 @@ h1{
   padding-bottom: 20px;
 }
 p{
-  
+
   color: #983030;
 }
 form{
@@ -33,4 +33,12 @@ select{
 }
 h2{
   display: none;
+}
+#name{
+  width: 200px;
+}
+#container{
+  border: gray solid;
+  padding-left: 20px;
+  padding-top: 20px;
 }
