@@ -14,12 +14,26 @@ p{
   color: #983030;
 }
 form{
-  border: grey solid;
+
+  padding-bottom: 70px;
 }
 
 button{
-  padding-bottom: 20px;
+  padding-top: 100px;
+
 }
 select{
   margin: 10px;
+}
+#place1{
+  display: none;
+}
+#place2{
+  display: none;
+}
+#place3{
+  display: none;
+}
+h2{
+  display: none;
 }
