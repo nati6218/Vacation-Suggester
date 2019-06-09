@@ -16,6 +16,7 @@ This website allows the  user can to answer questions about themselves and be gi
 
 * Clone this repository
 * Open a simple HTTP click the link
+https://nati6218.github.io/Vacation-Suggester/
 
 
 ## License
