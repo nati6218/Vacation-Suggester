@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
 $('form#container').submit(function(event){
+
   event.preventDefault();
 var nameInput = $('input#name').val();
 var question1 = $("input:radio[name=purpose]:checked").val();
@@ -8,6 +9,7 @@ var question2 = $("input:radio[name=activities]:checked").val();
 var question3 = $("input:radio[name=food]:checked").val();
 var question4 = $("input:radio[name=music]:checked").val();
 var question5 = $("input:radio[name=season]:checked").val();
+var suggester = $('#suggester').prop("checked", true);
 
 
 if (question1=== "party" && question2 === "dance" && question3 === "fastfood" && question4 === "salsa" && question5=== "summer") {
