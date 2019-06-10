@@ -1,7 +1,7 @@
 # Vacation Suggester
 #### By Natalia Tigh
 
-## Descriprion
+## Description
 This website allows the  user can to answer questions about themselves and be given a vacation destination based on their answers.
 ## Technologies Used
 
